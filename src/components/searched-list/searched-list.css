@@ -1,0 +1,5 @@
+.searched-list {
+  display: grid;
+  gap: 16px;
+  color: white;
+}

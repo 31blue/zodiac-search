@@ -1,0 +1,7 @@
+.card-search-list {
+  width: 1000px;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}

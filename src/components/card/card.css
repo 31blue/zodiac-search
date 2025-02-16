@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  background-color: #000108;
+}
+
+.card-house {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80vw;
+  height: 80vh;
+  background-image: url('/public/background.jpg');
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 214px;
+  height: 400px;
+  padding: 10px;
+  border-radius: 16px;
+  background: #1b1e2b;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.zodiac-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: auto;
+  max-height: 60%;
+}
+
+.zodiac-name {
+  position: absolute;
+  bottom: 10px;
+  color: #c8d1f5;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+  width: 100%;
+  padding-right: 70px;
+}
+
+.tags {
+  display: none;
+}
